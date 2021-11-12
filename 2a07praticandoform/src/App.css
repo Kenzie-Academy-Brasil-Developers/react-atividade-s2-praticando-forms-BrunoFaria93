@@ -1,0 +1,79 @@
+.big-container {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  width: 100vw;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: flex;
+  align-items: center;
+
+}
+
+.container{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 30px;
+}
+p{
+  margin: 0;
+  max-width: 70vw;
+  font-size: 12px;
+  max-height: 12px;
+}
+input{
+  margin-top: 10px;
+  padding: 11px 0px;
+  width: 300px;
+}
+input, textarea {
+  background-color: #282c34;
+}
+input, border{
+  border: 1px solid #d1d1d1;
+}
+button{
+  width: 300px;
+  margin-top: 20px;
+  padding: 11px 40px;
+  border: none;
+  background-color: rgb(5, 43, 168);
+  color: whitesmoke;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-password{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.container-password div{
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+.container-password input{
+  width: 140px;
+}
+.checkbox{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.checkbox p{
+  width: 180px;
+}
